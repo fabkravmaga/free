@@ -1,2 +1,2 @@
-FROM 3jmaster/innocent:latest
-EXPOSE 5901 6901
+FROM 3jmaster/free:latest
+EXPOSE 22 5901 6901
