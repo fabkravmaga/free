@@ -1,2 +1,4 @@
 FROM 3jmaster/docker-headless-vnc-container:kali
-EXPOSE 22 5901 6901
+RUN rm /usr/share/metasploit-framework/data/eicar.txt
+RUN rm /usr/share/metasploit-framework/data/eicar.com
+EXPOSE 6901
